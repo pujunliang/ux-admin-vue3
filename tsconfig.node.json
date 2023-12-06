@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "skipLibCheck": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true,
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "strict": false,
+        "baseUrl": "./",
+        "jsx": "preserve",
+        "paths": {
+            "@/*": ["src/*"]
+        }
+    },
+    "include": [
+        "package.json",
+        "vite.config.ts",
+        "build/**/*.ts",
+        "src/**/*.ts",
+        "src/**/*.vue",
+        "src/**/*.json",
+        "./typings/*.d.ts"
+    ]
+}

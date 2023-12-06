@@ -1,0 +1,341 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "path": "/home/index",
+            "name": "home",
+            "component": "/home/index",
+            "meta": {
+                "icon": "ri-home-4-fill",
+                "title": "首页",
+                "isLink": "",
+                "isHide": false,
+                "isFull": false,
+                "isAffix": true,
+                "isKeepAlive": true
+            }
+        },
+        {
+            "path": "/dataScreen",
+            "name": "dataScreen",
+            "component": "/dataScreen/index",
+            "meta": {
+                "icon": "ri-bar-chart-2-line",
+                "title": "数据大屏",
+                "isLink": "",
+                "isHide": false,
+                "isFull": false,
+                "isAffix": false,
+                "isKeepAlive": true
+            }
+        },
+        {
+            "path": "/proTable",
+            "name": "proTable",
+            "redirect": "/proTable/useProTable",
+            "meta": {
+                "icon": "ri-table-line",
+                "title": "超级表格",
+                "isLink": "",
+                "isHide": false,
+                "isFull": false,
+                "isAffix": false,
+                "isKeepAlive": true
+            },
+            "children": [
+                {
+                    "path": "/proTable/useProTable",
+                    "name": "useProTable",
+                    "component": "/proTable/useProTable/index",
+                    "meta": {
+                        "icon": "ri-table-line",
+                        "title": "使用 ProTable",
+                        "isLink": "",
+                        "isHide": false,
+                        "isFull": false,
+                        "isAffix": false,
+                        "isKeepAlive": true
+                    },
+                    "children": [
+                        {
+                            "path": "/proTable/useProTable/detail/:id",
+                            "name": "useProTableDetail",
+                            "component": "/proTable/useProTable/detail",
+                            "meta": {
+                                "icon": "ri-table-line",
+                                "title": "ProTable 详情",
+                                "activeMenu": "/proTable/useProTable",
+                                "isLink": "",
+                                "isHide": true,
+                                "isFull": false,
+                                "isAffix": false,
+                                "isKeepAlive": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "path": "/proTable/useTreeFilter",
+                    "name": "useTreeFilter",
+                    "component": "/proTable/useTreeFilter/index",
+                    "meta": {
+                        "icon": "ri-node-tree",
+                        "title": "使用 TreeFilter",
+                        "isLink": "",
+                        "isHide": false,
+                        "isFull": false,
+                        "isAffix": false,
+                        "isKeepAlive": true
+                    }
+                },
+                {
+                    "path": "/proTable/useSelectFilter",
+                    "name": "useSelectFilter",
+                    "component": "/proTable/useSelectFilter/index",
+                    "meta": {
+                        "icon": "ri-filter-line",
+                        "title": "使用 SelectFilter",
+                        "isLink": "",
+                        "isHide": false,
+                        "isFull": false,
+                        "isAffix": false,
+                        "isKeepAlive": true
+                    }
+                },
+                {
+                    "path": "/proTable/treeProTable",
+                    "name": "treeProTable",
+                    "component": "/proTable/treeProTable/index",
+                    "meta": {
+                        "icon": "ri-tree-line",
+                        "title": "树形 ProTable",
+                        "isLink": "",
+                        "isHide": false,
+                        "isFull": false,
+                        "isAffix": false,
+                        "isKeepAlive": true
+                    }
+                },
+                {
+                    "path": "/proTable/complexProTable",
+                    "name": "complexProTable",
+                    "component": "/proTable/complexProTable/index",
+                    "meta": {
+                        "icon": "ri-merge-cells-horizontal",
+                        "title": "复杂 ProTable",
+                        "isLink": "",
+                        "isHide": false,
+                        "isFull": false,
+                        "isAffix": false,
+                        "isKeepAlive": true
+                    }
+                },
+                {
+                    "path": "/proTable/document",
+                    "name": "proTableDocument",
+                    "component": "/proTable/document/index",
+                    "meta": {
+                        "icon": "ri-file-search-line",
+                        "title": "ProTable 文档",
+                        "isLink": "",
+                        "isHide": false,
+                        "isFull": false,
+                        "isAffix": false,
+                        "isKeepAlive": true
+                    }
+                }
+            ]
+        },
+        {
+            "path": "/menu",
+            "name": "menu",
+            "redirect": "/menu/menu1",
+            "meta": {
+                "icon": "ri-menu-line",
+                "title": "菜单嵌套",
+                "isLink": "",
+                "isHide": false,
+                "isFull": false,
+                "isAffix": false,
+                "isKeepAlive": true
+            },
+            "children": [
+                {
+                    "path": "/menu/menu1",
+                    "name": "menu1",
+                    "component": "/menu/menu1/index",
+                    "meta": {
+                        "icon": "ri-menu-line",
+                        "title": "菜单1",
+                        "isLink": "",
+                        "isHide": false,
+                        "isFull": false,
+                        "isAffix": false,
+                        "isKeepAlive": true
+                    }
+                },
+                {
+                    "path": "/menu/menu2",
+                    "name": "menu2",
+                    "redirect": "/menu/menu2/menu21",
+                    "meta": {
+                        "icon": "ri-menu-line",
+                        "title": "菜单2",
+                        "isLink": "",
+                        "isHide": false,
+                        "isFull": false,
+                        "isAffix": false,
+                        "isKeepAlive": true
+                    },
+                    "children": [
+                        {
+                            "path": "/menu/menu2/menu21",
+                            "name": "menu21",
+                            "component": "/menu/menu2/menu21/index",
+                            "meta": {
+                                "icon": "ri-menu-line",
+                                "title": "菜单2-1",
+                                "isLink": "",
+                                "isHide": false,
+                                "isFull": false,
+                                "isAffix": false,
+                                "isKeepAlive": true
+                            }
+                        },
+                        {
+                            "path": "/menu/menu2/menu22",
+                            "name": "menu22",
+                            "redirect": "/menu/menu2/menu22/menu221",
+                            "meta": {
+                                "icon": "ri-menu-line",
+                                "title": "菜单2-2",
+                                "isLink": "",
+                                "isHide": false,
+                                "isFull": false,
+                                "isAffix": false,
+                                "isKeepAlive": true
+                            },
+                            "children": [
+                                {
+                                    "path": "/menu/menu2/menu22/menu221",
+                                    "name": "menu221",
+                                    "component": "/menu/menu2/menu22/menu221/index",
+                                    "meta": {
+                                        "icon": "ri-menu-line",
+                                        "title": "菜单2-2-1",
+                                        "isLink": "",
+                                        "isHide": false,
+                                        "isFull": false,
+                                        "isAffix": false,
+                                        "isKeepAlive": true
+                                    }
+                                },
+                                {
+                                    "path": "/menu/menu2/menu22/menu222",
+                                    "name": "menu222",
+                                    "component": "/menu/menu2/menu22/menu222/index",
+                                    "meta": {
+                                        "icon": "ri-menu-line",
+                                        "title": "菜单2-2-2",
+                                        "isLink": "",
+                                        "isHide": false,
+                                        "isFull": false,
+                                        "isAffix": false,
+                                        "isKeepAlive": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "path": "/menu/menu2/menu23",
+                            "name": "menu23",
+                            "component": "/menu/menu2/menu23/index",
+                            "meta": {
+                                "icon": "ri-menu-line",
+                                "title": "菜单2-3",
+                                "isLink": "",
+                                "isHide": false,
+                                "isFull": false,
+                                "isAffix": false,
+                                "isKeepAlive": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "path": "/menu/menu3",
+                    "name": "menu3",
+                    "component": "/menu/menu3/index",
+                    "meta": {
+                        "icon": "ri-menu-line",
+                        "title": "菜单3",
+                        "isLink": "",
+                        "isHide": false,
+                        "isFull": false,
+                        "isAffix": false,
+                        "isKeepAlive": true
+                    }
+                }
+            ]
+        },
+        {
+            "path": "/link",
+            "name": "link",
+            "redirect": "/link/bing",
+            "meta": {
+                "icon": "ri-links-line",
+                "title": "外部链接",
+                "isLink": "",
+                "isHide": false,
+                "isFull": false,
+                "isAffix": false,
+                "isKeepAlive": true
+            },
+            "children": [
+                {
+                    "path": "/link/remixicon",
+                    "name": "remixicon",
+                    "component": "/link/remixicon/index",
+                    "meta": {
+                        "icon": "ri-remixicon-line",
+                        "title": "RemixIcon",
+                        "isLink": "",
+                        "isHide": false,
+                        "isFull": false,
+                        "isAffix": false,
+                        "isKeepAlive": true
+                    }
+                },
+                {
+                    "path": "/link/baidu",
+                    "name": "baidu",
+                    "component": "/link/baidu/index",
+                    "meta": {
+                        "icon": "ri-external-link-line",
+                        "title": "百度首页",
+                        "isLink": "https://www.baidu.com",
+                        "isHide": false,
+                        "isFull": false,
+                        "isAffix": false,
+                        "isKeepAlive": true
+                    }
+                }
+            ]
+        },
+        {
+            "path": "/about/index",
+            "name": "about",
+            "component": "/about/index",
+            "meta": {
+                "icon": "ri-information-fill",
+                "title": "关于项目",
+                "isLink": "",
+                "isHide": false,
+                "isFull": false,
+                "isAffix": false,
+                "isKeepAlive": true
+            }
+        }
+    ],
+    "msg": "成功"
+}
