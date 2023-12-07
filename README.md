@@ -1,8 +1,8 @@
 <h1 align="center">Welcome to ux-admin-vue3 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <img src="https://img.shields.io/badge/node-%3E%3D%2012.0.0-blue.svg" />
-  <img src="https://img.shields.io/badge/npm-%3E%3D%206.0.0-blue.svg" />
+  <img src="https://img.shields.io/badge/node-%3E%3D%2016.0.0-blue.svg" />
+  <img src="https://img.shields.io/badge/npm-%3E%3D%208.0.0-blue.svg" />
   <a href="https://github.com/pujunliang/ux-admin-vue3/master/README.md">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
@@ -25,8 +25,8 @@
 
 ## Prerequisites
 
--   node >= 12.0.0
--   npm >= 6.0.0
+-   node >= 16.0.0
+-   npm >= 8.0.0
 
 ## Tips
 
@@ -52,8 +52,8 @@
 
 -开发环境
 
--   node.js v12.0+
--   vite v2
+-   node.js v16.0+
+-   vite v4
 -   git
 
 -技术栈
