@@ -61,7 +61,7 @@
 -   element-ui plus
     _ mockjs
     _ apexcharts
-    \_ typescript
+    _ typescript
 -   tsx
 -   remixicon
 
