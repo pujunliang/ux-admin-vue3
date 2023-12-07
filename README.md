@@ -59,9 +59,9 @@
 -   axios
 -   scss
 -   element-ui plus
-    _ mockjs
-    _ apexcharts
-    _ typescript
+_   mockjs
+_   apexcharts
+_   typescript
 -   tsx
 -   remixicon
 
