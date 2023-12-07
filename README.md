@@ -58,10 +58,10 @@
 -   Pinia
 -   axios
 -   scss
--   element-ui plus
-_   mockjs
-_   apexcharts
-_   typescript
+-   element-plus
+-   mockjs
+-   apexcharts
+-   typescript
 -   tsx
 -   remixicon
 
