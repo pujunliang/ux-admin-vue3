@@ -13,6 +13,7 @@ export function createVitePlugins(viteEnv: ViteEnv, isBuild: boolean = false): (
     // const { VITE_GLOB_APP_TITLE, VITE_REPORT, VITE_PWA } = viteEnv;
 
     const vitePlugins: Array<PluginOption> = [];
+
     vitePlugins.push(vue());
     vitePlugins.push(vueJsx());
     vitePlugins.push(createSetupExtend());

@@ -15,7 +15,7 @@
         "preview": "npm run build:dev && vite preview",
         "lint:eslint": "eslint --fix --ext .js,.ts,.vue ./src",
         "lint:prettier": "prettier --write \"src/**/*.{js,ts,json,tsx,css,less,scss,vue,html,md}\"",
-        "commit": "git add -A && czg && git push"
+        "commit": "git add -A && git push"
     },
     "dependencies": {
         "@element-plus/icons-vue": "^2.1.0",

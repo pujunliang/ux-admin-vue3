@@ -13,8 +13,6 @@
 
 > vite4 + vue3.2 + Pinia + typescript + mockjs + apexcharts + remixicon 无限级菜单 权限管理 后台模板
 
-### 🏠 [Homepage](https://pujunliang.github.io/ux-admin-vue3/#/index)
-
 ## Author
 
 👤 **pujunliang**
@@ -35,10 +33,6 @@
 ## 1. ux-admin-vue3 快速开发平台简介
 
 > 一款基于 Vue3.3、TypeScript、Vite4、Pinia、remixIcon、Element-Plus开源的后台管理框架，使用目前最新技术栈开发。项目提供了表格、图表、主题配置等诸多强大功能，可在一定程度上提高您的开发效率。同时采用了极简、快速开发的思路进行搭建，满足不同项目快速开发需求。另外本项目还封装了一些常用组件、Hooks、指令、动态路由、按钮级别权限控制等功能。
-
-项目预览地址：
-
--   github: https://pujunliang.io/ux-admin-vue3/#/
 
 项目截图：
 
@@ -67,7 +61,7 @@
 -   element-ui plus
     _ mockjs
     _ apexcharts
-    _ typescript
+    \_ typescript
 -   tsx
 -   remixicon
 
