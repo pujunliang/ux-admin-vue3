@@ -11,7 +11,7 @@
   </a>
 </p>
 
-> vite4 + vue3 + Pinia + elementUi-plus 无限级菜单 权限管理 后台模板
+> vite4 + vue3.2 + Pinia + typescript + mockjs + apexcharts + remixicon 无限级菜单 权限管理 后台模板
 
 ### 🏠 [Homepage](https://pujunliang.github.io/ux-admin-vue3/#/index)
 
@@ -32,7 +32,7 @@
 
 ### 当前框架技术栈: vite4 + vue3.2 + Pinia + typescript + mockjs + apexcharts + remixicon
 
-## 1. ux-admin-admin 快速开发平台简介
+## 1. ux-admin-vue3 快速开发平台简介
 
 > 一款基于 Vue3.3、TypeScript、Vite4、Pinia、remixIcon、Element-Plus开源的后台管理框架，使用目前最新技术栈开发。项目提供了表格、图表、主题配置等诸多强大功能，可在一定程度上提高您的开发效率。同时采用了极简、快速开发的思路进行搭建，满足不同项目快速开发需求。另外本项目还封装了一些常用组件、Hooks、指令、动态路由、按钮级别权限控制等功能。
 
@@ -42,11 +42,11 @@
 
 项目截图：
 
-![enter description here](https://pujunliang.io/ux-admin-vue3/img_readme/首页-UxAdmin.png)
-![enter description here](https://pujunliang.io/ux-admin-vue3/img_readme/数据大屏-UxAdmin.png)
-![enter description here](https://pujunliang.io/ux-admin-vue3/img_readme/使用ProTable-UxAdmin.png)
-![enter description here](https://pujunliang.io/ux-admin-vue3/img_readme/SelectFilter-UxAdmin.png)
-![enter description here](https://pujunliang.io/ux-admin-vue3/img_readme/关于项目-UxAdmin.png)
+![enter description here](https://github.com/pujunliang/ux-admin-vue3/blob/master/img_readme/首页-UxAdmin.png)
+![enter description here](https://github.com/pujunliang/ux-admin-vue3/blob/master/img_readme/数据大屏-UxAdmin.png)
+![enter description here](https://github.com/pujunliang/ux-admin-vue3/blob/master/img_readme/使用ProTable-UxAdmin.png)
+![enter description here](https://github.com/pujunliang/ux-admin-vue3/blob/master/img_readme/SelectFilter-UxAdmin.png)
+![enter description here](https://github.com/pujunliang/ux-admin-vue3/blob/master/img_readme/关于项目-UxAdmin.png)
 
 ## 2. 准备工作
 
@@ -67,7 +67,7 @@
 -   element-ui plus
     _ mockjs
     _ apexcharts
-    \_ typescript
+    _ typescript
 -   tsx
 -   remixicon
 
@@ -133,11 +133,6 @@
     -   SwitchDark
     -   TreeFilter
     -   Upload
-
-```
-## 4.开发使用
-### 4.1开发
-```
 
 # 设置淘宝镜像
 
